@@ -4,7 +4,7 @@ import card from "../assets/card_6.webp";
 const ProAccounts = () => {
   return (
     <section id="proaccts-section">
-      <div className="mx-7 bg-veryDarkBlue font-dmsans rounded-xl px-7 md:px-20 md:mx-36">
+      <div className="mx-4 bg-veryDarkBlue font-dmsans rounded-xl px-7 md:px-20 md:mx-36">
         <div className="flex flex-col md:flex-row">
           <div className="flex flex-col text-white py-16 md:py-52">
             <h3 className="text-xl font-bold pb-7 md:tex-2xl">Pro accounts</h3>
@@ -13,7 +13,8 @@ const ProAccounts = () => {
               <span className="text-darkCyan">International</span> Accounts
             </h2>
             <p className="text-xl">
-              Create and manage multiple foreign accounts USD EUR GBP NGN
+              Create and manage multiple foreign accounts <span>USD</span>{" "}
+              <span>EUR</span> <span>GBP</span> <span>NGN</span>
             </p>
             <div className="pt-10">
               <a
