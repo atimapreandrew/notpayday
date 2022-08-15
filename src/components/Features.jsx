@@ -11,15 +11,15 @@ const Features = () => {
         <div className="flex flex-row text-center">
           <div className="px-10">
             <img className="w-3/4" src={SendImg} alt="" />
-            <h2 className="pt-5 text-4xl font-bold">Send</h2>
-            <p className="py-3 text-xl">
+            <h2 className="pt-5 text-2xl font-bold md:text-4xl">Send</h2>
+            <p className="py-3 text-base md:text-xl">
               Send & receive money globally in seconds
             </p>
           </div>
           <div className="px-10">
             <img className="w-3/4" src={SpendImg} alt="" />
-            <h2 className="pt-5 text-4xl font-bold">Spend</h2>
-            <p className="py-3 text-xl">
+            <h2 className="pt-5 text-2xl font-bold md:text-4xl">Spend</h2>
+            <p className="py-3 text-base md:text-xl">
               Virtual master card that fits your digital life.
             </p>
           </div>
@@ -28,13 +28,17 @@ const Features = () => {
         <div className="flex flex-row text-center">
           <div className="px-10">
             <img className="w-3/4" src={BankImg} alt="" />
-            <h2 className="pt-5 text-4xl font-bold">Bank</h2>
-            <p className="py-3 text-xl">Own multiple international accounts.</p>
+            <h2 className="pt-5 text-2xl font-bold md:text-4xl">Bank</h2>
+            <p className="py-3 text-base md:text-xl">
+              Own multiple international accounts.
+            </p>
           </div>
           <div className="px-10">
             <img className="w-3/4" src={InvestImg} alt="" />
-            <h2 className="pt-5 text-4xl font-bold">Invest</h2>
-            <p className="py-3 text-xl">Buy crypto with as little as $1.</p>
+            <h2 className="pt-5 text-2xl font-bold md:text-4xl">Invest</h2>
+            <p className="py-3 text-base md:text-xl">
+              Buy crypto with as little as $1.
+            </p>
           </div>
         </div>
       </div>
