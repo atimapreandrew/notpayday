@@ -7,18 +7,18 @@ import InvestImg from "../assets/invest.webp";
 const Features = () => {
   return (
     <section id="features-section">
-      <div className="flex flex-col font-dmsans px-2 py-20 mx-auto md:flex-row md:px-24 md:py-32">
+      <div className="flex flex-col font-dmsans px-2 py-20 mx-auto md:flex-row md:px-32 md:py-32">
         <div className="flex flex-row text-center">
-          <div className="px-10">
-            <img className="w-3/4" src={SendImg} alt="" />
-            <h2 className="pt-5 text-2xl font-bold md:text-4xl">Send</h2>
+          <div className="px-5">
+            <img className="w-3/4 md:w-3/5" src={SendImg} alt="" />
+            <h2 className="pt-5 text-3xl font-bold md:text-4xl">Send</h2>
             <p className="py-3 text-base md:text-xl">
               Send & receive money globally in seconds
             </p>
           </div>
-          <div className="px-10">
-            <img className="w-3/4" src={SpendImg} alt="" />
-            <h2 className="pt-5 text-2xl font-bold md:text-4xl">Spend</h2>
+          <div className="px-5">
+            <img className="w-3/4 md:w-3/5" src={SpendImg} alt="" />
+            <h2 className="pt-5 text-3xl font-bold md:text-4xl">Spend</h2>
             <p className="py-3 text-base md:text-xl">
               Virtual master card that fits your digital life.
             </p>
@@ -26,16 +26,16 @@ const Features = () => {
         </div>
 
         <div className="flex flex-row text-center">
-          <div className="px-10">
-            <img className="w-3/4" src={BankImg} alt="" />
-            <h2 className="pt-5 text-2xl font-bold md:text-4xl">Bank</h2>
+          <div className="px-5">
+            <img className="w-3/4 md:w-3/5" src={BankImg} alt="" />
+            <h2 className="pt-5 text-3xl font-bold md:text-4xl">Bank</h2>
             <p className="py-3 text-base md:text-xl">
               Own multiple international accounts.
             </p>
           </div>
-          <div className="px-10">
-            <img className="w-3/4" src={InvestImg} alt="" />
-            <h2 className="pt-5 text-2xl font-bold md:text-4xl">Invest</h2>
+          <div className="px-5">
+            <img className="w-3/4 md:w-3/5" src={InvestImg} alt="" />
+            <h2 className="pt-5 text-3xl font-bold md:text-4xl">Invest</h2>
             <p className="py-3 text-base md:text-xl">
               Buy crypto with as little as $1.
             </p>
