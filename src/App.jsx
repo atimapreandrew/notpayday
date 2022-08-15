@@ -6,7 +6,7 @@ import Features from "./components/Features";
 function App() {
   return (
     <>
-      <div className="bg-veryDarkBlue scroll-smooth">
+      <div className="bg-veryDarkBlue">
         <Header />
         <Hero />
       </div>

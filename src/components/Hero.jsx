@@ -11,16 +11,16 @@ const Hero = () => {
     <section id="hero-section">
       <div className="relative mx-auto flex flex-row pt-10 px-7 md:px-32 md:pt-20">
         <div className="flex flex-col lg:w-1/2 md:space-y-5">
-          <p className="text-black p-1.5 font-medium bg-slate-200 w-4/5 rounded-full truncate text-[12px] my-5 md:w-3/5">
+          <p className="text-black p-1.5 font-medium bg-slate-200 w-4/5 rounded-full truncate text-[12px] my-5 md:w-7/12">
             <span className="text-white bg-black rounded-full py-0.5 px-3">
               New
             </span>{" "}
             Announcing our $2M + pre-seed funding 🎉
           </p>
-          <h1 className="text-white pt-8 text-4xl font-bold md:text-7xl">
+          <h1 className="text-white pt-8 text-5xl font-bold md:text-7xl">
             Your Money
           </h1>
-          <h1 className="text-white pt-0.5 text-4xl font-bold md:text-7xl">
+          <h1 className="text-white pt-1 text-5xl font-bold md:text-7xl">
             Without Borders
           </h1>
           <h3 className="leading-7 text-white text-xl py-7 md:py-4 md:leading-10 md:text-2xl">

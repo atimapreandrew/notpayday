@@ -9,10 +9,10 @@ const Header = () => {
           <div className="w-32">
             <img src={logo} alt="Notpayday Logo" />
           </div>
-          <div className="hidden space-x-12 md:flex font-opensans text-lg place-items-center text-white">
+          <div className="hidden space-x-12 md:flex font-dmsans text-lg place-items-center text-white">
             <a href="#">Products</a>
             <a href="#">About</a>
-            <a href="#">Faq</a>
+            <a href="#">FAQ</a>
             <a href="#">Blog</a>
             <a href="#" className="bg-white rounded-md px-3 py-2 text-black">
               TalentPay
