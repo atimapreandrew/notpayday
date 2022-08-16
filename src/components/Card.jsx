@@ -10,10 +10,10 @@ const Card = () => {
             <h3 className="text-xl font-bold pb-7 md:tex-2xl">
               Shop on the go
             </h3>
-            <h2 className="text-2xl font-bold pb-2 md:text-5xl">
+            <h2 className="text-3xl font-bold md:pb-2 md:text-5xl">
               Mastercard for all your
             </h2>
-            <h2 className="text-2xl font-bold pb-7 md:text-5xl">
+            <h2 className="text-3xl font-bold pb-7 md:text-5xl">
               <span className="text-veryDarkCyan">online purchases</span>
             </h2>
             <p className="text-xl">
@@ -30,7 +30,7 @@ const Card = () => {
             </div>
           </div>
 
-          <div className="flex flex-col px-10 w-4/5 md:w-3/5 md:pt-20">
+          <div className="flex flex-col px-10 md:w-3/5 md:pt-20">
             <div>
               <img src={card} alt="" />
             </div>
