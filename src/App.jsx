@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="flex justify-center items-center min-h-screen">
       {isLoading ? (
-        <HashLoader color={"#000000"} loading={isLoading} size={50} />
+        <HashLoader color={"#000000"} loading={isLoading} size={40} />
       ) : (
         <div>
           <div className="bg-veryDarkBlue">
