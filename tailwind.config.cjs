@@ -15,8 +15,9 @@ module.exports = {
     extend: {
       colors: {
         veryDarkBlue: "#010005",
-        darkCyan: "#aaf2ef",
+        darkCyan: "#d3ede3",
         grayish: "#6c757d",
+        veryDarkCyan: "#09757e",
       },
     },
   },
