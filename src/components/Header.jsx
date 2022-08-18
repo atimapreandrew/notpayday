@@ -3,7 +3,7 @@ import logo from "../assets/logo.webp";
 
 const Header = () => {
   return (
-    <header id="header-section">
+    <header id="header-section" className="bg-veryDarkBlue">
       <nav className="relative container mx-auto p-7 px-8 md:px-24">
         <div className="flex items-center justify-between">
           <div className="w-32">

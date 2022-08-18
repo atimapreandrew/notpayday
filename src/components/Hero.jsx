@@ -8,7 +8,7 @@ import Rate from "../assets/rate.svg";
 
 const Hero = () => {
   return (
-    <section id="hero-section">
+    <section id="hero-section" className="bg-veryDarkBlue">
       <div className="relative container flex flex-row mx-auto px-8 pt-10 md:pt-20 md:px-24">
         <div className="flex flex-col lg:w-1/2 md:space-y-5">
           <p className="text-black p-1.5 font-medium bg-slate-200 w-4/5 rounded-full truncate text-[12px] my-5 md:w-7/12">

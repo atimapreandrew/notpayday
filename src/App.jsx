@@ -22,10 +22,8 @@ function App() {
         <HashLoader color={"#000000"} loading={isLoading} size={40} />
       ) : (
         <div>
-          <div className="bg-veryDarkBlue">
-            <Header />
-            <Hero />
-          </div>
+          <Header />
+          <Hero />
           <Features />
           <ProAccounts />
           <Card />
