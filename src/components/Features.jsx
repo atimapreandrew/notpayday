@@ -7,7 +7,7 @@ import InvestImg from "../assets/invest.webp";
 const Features = () => {
   return (
     <section id="features-section">
-      <div className="flex flex-col mx-auto font-dmsans py-24 px-8 md:flex-row md:py-36 md:px-32">
+      <div className="flex flex-col container mx-auto font-dmsans py-24 px-8 md:flex-row md:py-36 md:px-24">
         <div className="flex flex-row text-center">
           <div className="px-5 flex flex-col items-center">
             <img className="w-3/4 md:w-3/5" src={SendImg} alt="" />
