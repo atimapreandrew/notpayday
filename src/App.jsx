@@ -17,13 +17,15 @@ function App() {
   }, []);
 
   return (
-    <div className="flex justify-center items-center min-h-screen">
+    <div className="overflow-hidden flex justify-center items-center min-h-screen">
       {isLoading ? (
         <HashLoader color={"#000000"} loading={isLoading} size={40} />
       ) : (
-        <div>
-          <Header />
-          <Hero />
+        <div className="overflow-hidden">
+          <div className="bg-veryDarkBlue">
+            <Header />
+            <Hero />
+          </div>
           <Features />
           <ProAccounts />
           <Card />
