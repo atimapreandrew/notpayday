@@ -21,7 +21,7 @@ function App() {
       {isLoading ? (
         <HashLoader color={"#000000"} loading={isLoading} size={40} />
       ) : (
-        <div className="overflow-hidden">
+        <div>
           <div className="bg-veryDarkBlue">
             <Header />
             <Hero />
