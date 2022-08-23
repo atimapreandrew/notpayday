@@ -22,10 +22,10 @@ const SendGetPaid = () => {
         </div>
         <div className="flex flex-col bg-veryDarkBlue rounded-2xl md:ml-3 md:w-1/2">
           <div className="w-48 mx-auto pt-24">
-            <img src={paidImg} alt="" />
+            <img src={paidImg} alt="Get paid" />
           </div>
           <div className="text-white px-8 mx-auto pt-16 md:px-16">
-            <h1 className="text-4xl font-bold">
+            <h1 className="text-3xl font-bold md:text-4xl">
               Get paid by foreign employers
             </h1>
             <p className="text-xl pt-5 pb-14">
