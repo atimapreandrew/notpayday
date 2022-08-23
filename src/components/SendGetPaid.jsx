@@ -10,7 +10,7 @@ const SendGetPaid = () => {
           <div className="w-48 mx-auto pt-24">
             <img src={sendImg} alt="Send cash" />
           </div>
-          <div className="mx-auto px-16 pt-16">
+          <div className="mx-auto px-8 pt-16 md:px-16">
             <h1 className="text-3xl font-bold">
               Send cash to family & friends
             </h1>
@@ -24,7 +24,7 @@ const SendGetPaid = () => {
           <div className="w-48 mx-auto pt-24">
             <img src={paidImg} alt="" />
           </div>
-          <div className="text-white mx-auto px-16 pt-16">
+          <div className="text-white px-8 mx-auto pt-16 md:px-16">
             <h1 className="text-4xl font-bold">
               Get paid by foreign employers
             </h1>

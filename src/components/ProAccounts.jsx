@@ -14,16 +14,16 @@ const ProAccounts = () => {
             </h2>
             <p className="text-xl">
               Create and manage multiple foreign accounts{" "}
-              <span className="rounded-xl bg-white font-bold px-3 mr-2 text-black">
+              <span className="rounded-xl text-lg bg-white font-bold px-3 mr-2 text-black">
                 USD
               </span>{" "}
-              <span className="rounded-xl bg-white font-bold px-3 mr-2 text-black">
+              <span className="rounded-xl text-lg bg-white font-bold px-3 mr-2 text-black">
                 EUR
               </span>{" "}
-              <span className="rounded-xl bg-white font-bold px-3 mr-2 text-black">
+              <span className="rounded-xl text-lg bg-white font-bold px-3 mr-2 text-black">
                 GBP
               </span>{" "}
-              <span className="rounded-xl bg-white font-bold px-3 mr-2 text-black">
+              <span className="rounded-xl text-lg bg-white font-bold px-3 mr-2 text-black">
                 NGN
               </span>
             </p>
