@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import Features from "./components/Features";
 import ProAccounts from "./components/ProAccounts";
 import Card from "./components/Card";
+import SendGetPaid from "./components/SendGetPaid";
 
 function App() {
   const [isLoading, setIsLoading] = useState(false);
@@ -29,6 +30,7 @@ function App() {
           <Features />
           <ProAccounts />
           <Card />
+          <SendGetPaid />
         </div>
       )}
     </div>
