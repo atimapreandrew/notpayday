@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import HashLoader from "react-spinners/HashLoader";
+import ClipLoader from "react-spinners/ClipLoader";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Features from "./components/Features";
@@ -14,13 +14,13 @@ function App() {
     setIsLoading(true);
     setTimeout(() => {
       setIsLoading(false);
-    }, 2000);
+    }, 3000);
   }, []);
 
   return (
     <div className="overflow-hidden flex justify-center items-center min-h-screen">
       {isLoading ? (
-        <HashLoader color={"#000000"} loading={isLoading} size={40} />
+        <ClipLoader color={"#000000"} loading={isLoading} size={50} />
       ) : (
         <div>
           <div className="bg-veryDarkBlue">

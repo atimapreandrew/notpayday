@@ -17,13 +17,13 @@ const Hero = () => {
             </span>{" "}
             Announcing our $2M + pre-seed funding 🎉
           </p>
-          <h1 className="text-white pt-8 text-5xl font-bold md:text-7xl">
+          <h1 className="text-white pt-8 text-3xl font-bold md:text-7xl">
             Your Money
           </h1>
-          <h1 className="text-white pt-1 text-5xl font-bold md:text-7xl">
+          <h1 className="text-white pt-1 text-3xl font-bold md:text-7xl">
             Without Borders
           </h1>
-          <h3 className="leading-7 text-white text-xl py-7 md:py-4 md:leading-10 md:text-2xl">
+          <h3 className="leading-7 text-white text-lg py-7 md:py-4 md:leading-10 md:text-2xl">
             Send, exchange & receive money globally in seconds. Create virtual
             Mastercards that work anywhere online.
           </h3>
