@@ -10,20 +10,20 @@ const Card = () => {
             <h3 className="text-xl font-bold pb-7 md:text-2xl">
               Shop on the go
             </h3>
-            <h2 className="text-2xl font-bold md:pb-2 md:text-5xl">
+            <h2 className="text-xl font-bold md:pb-2 md:text-5xl">
               Mastercard for all your
             </h2>
-            <h2 className="text-2xl font-bold pb-7 md:text-5xl">
+            <h2 className="text-xl font-bold pb-7 md:text-5xl">
               <span className="text-veryDarkCyan">online purchases</span>
             </h2>
-            <p className="text-xl">
+            <p className="text-lg md:text-xl">
               Built for your digital life. Spend freely on millions of website
               globally.
             </p>
             <div className="py-12">
               <a
                 href="#"
-                className="bg-black text-lg rounded px-7 py-4 text-white"
+                className="bg-black text-base rounded px-7 py-4 text-white md:text-xl"
               >
                 Download Payday
               </a>

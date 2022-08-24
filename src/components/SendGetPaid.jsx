@@ -11,10 +11,10 @@ const SendGetPaid = () => {
             <img src={sendImg} alt="Send cash" />
           </div>
           <div className="mx-auto px-8 pt-16 md:px-16">
-            <h1 className="text-3xl font-bold">
+            <h1 className="text-xl font-bold md:text-3xl">
               Send cash to family & friends
             </h1>
-            <p className="text-xl pt-5 pb-16">
+            <p className="text-lg pt-5 pb-16 md:text-xl">
               Who remembers long account numbers anymore? Just use the Payday
               $tag
             </p>
@@ -25,10 +25,10 @@ const SendGetPaid = () => {
             <img src={paidImg} alt="Get paid" />
           </div>
           <div className="text-white px-8 mx-auto pt-16 md:px-16">
-            <h1 className="text-3xl font-bold md:text-4xl">
+            <h1 className="text-xl font-bold md:text-4xl">
               Get paid by foreign employers
             </h1>
-            <p className="text-xl pt-5 pb-14">
+            <p className="text-lg pt-5 pb-14 md:text-xl">
               Freelancer, remote worker or corporate employee? Get your payments
               in seconds!
             </p>
