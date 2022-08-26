@@ -36,7 +36,7 @@ const Hero = () => {
             <div className="w-24 py-5 pr-2">
               <img src={RatingsImg} alt="Ratings" />
             </div>
-            <div className="flex flex-col w-1/2">
+            <div className="flex flex-col">
               <div className="flex">
                 <img className="w-3" src={Rate} alt="" />
                 <img className="w-3" src={Rate} alt="" />

@@ -9,52 +9,52 @@ import yahoo_finance from "../assets/yahoo_finance.png";
 const Featured = () => {
   return (
     <section id="featured-section">
-      <div className="flex items-center justify-center mx-auto pt-10">
-        <h1 className="text-2xl font-bold text-gray-700">As featured in</h1>
+      <div className="flex items-center justify-center pt-10">
+        <h1 className="text-3xl font-bold text-gray-700">As featured in</h1>
       </div>
-      <div className="flex flex-col mx-4 py-7 mb-7 font-dmsans md:mx-32 md:flex-row">
-        <div className="flex items-center justify-center p-5 md:flex-row">
+      <div className="flex flex-col items-center justify-center mx-4 py-7 mb-7 font-dmsans md:mx-32 md:flex-row">
+        <div className="flex place-items-center space-x-20 p-5 md:flex-row">
           <a href="#">
             <img
-              className="w-4/6 grayscale grayscale-100 hover:grayscale-0"
+              className="w-16 grayscale grayscale-100 hover:grayscale-0"
               src={cnbc}
               alt=""
             />
           </a>
           <a href="#">
             <img
-              className="w-4/6 grayscale grayscale-100 hover:grayscale-0"
+              className="w-36 grayscale grayscale-100 hover:grayscale-0"
               src={dm24}
               alt=""
             />
           </a>
           <a href="#">
             <img
-              className="w-4/6 grayscale grayscale-100 hover:grayscale-0"
+              className="w-36 grayscale grayscale-100 hover:grayscale-0"
               src={ptimes}
               alt=""
             />
           </a>
         </div>
 
-        <div className="flex items-center justify-center p-5 md:flex-row">
+        <div className="flex items-center justify-center space-x-20 p-5 md:flex-row">
           <a href="#">
             <img
-              className="w-4/6 grayscale grayscale-100 hover:grayscale-0"
+              className="w-36 grayscale grayscale-100 hover:grayscale-0"
               src={vanguard}
               alt=""
             />
           </a>
           <a href="#">
             <img
-              className="w-4/6 grayscale grayscale-100 hover:grayscale-0"
+              className="w-36 grayscale grayscale-100 hover:grayscale-0"
               src={guardian}
               alt=""
             />
           </a>
           <a href="#">
             <img
-              className="w-4/6 grayscale grayscale-100 hover:grayscale-0"
+              className="w-36 grayscale grayscale-100 hover:grayscale-0"
               src={yahoo_finance}
               alt=""
             />
