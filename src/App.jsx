@@ -22,7 +22,12 @@ function App() {
   return (
     <div className="overflow-hidden flex justify-center items-center min-h-screen">
       {isLoading ? (
-        <ClipLoader color={"#000000"} loading={isLoading} size={50} />
+        <ClipLoader
+          color={"#000000"}
+          loading={isLoading}
+          cssOverride={{ borderWidth: "4px" }}
+          size={60}
+        />
       ) : (
         <div>
           <div className="bg-veryDarkBlue">
