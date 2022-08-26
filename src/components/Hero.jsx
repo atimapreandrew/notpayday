@@ -9,7 +9,7 @@ import Rate from "../assets/rate.svg";
 const Hero = () => {
   return (
     <section id="hero-section">
-      <div className="container flex flex-row font-dmsans mx-auto p-7 px-8 md:pt-20 md:px-24">
+      <div className="container flex flex-row font-opensans mx-auto p-7 px-8 md:pt-20 md:px-24">
         <div className="flex flex-col lg:w-1/2 md:space-y-5">
           <p className="text-black p-1.5 font-medium bg-slate-200 w-4/5 rounded-full truncate text-[12px] my-5 md:w-7/12">
             <span className="text-white bg-black rounded-full py-0.5 px-3">
