@@ -13,17 +13,13 @@ const Cta = () => {
               now!
             </h1>
           </div>
-          <div className="flex p-7 space-x-14 md:space-x-7 md:absolute md:right-60">
+          <div className="flex py-7 px-10 space-x-2 md:space-x-7 md:absolute md:right-60">
             <a href="#">
-              <img
-                className="w-40 md:w-48"
-                src={iosImg}
-                alt="iOS App Download"
-              />
+              <img className="w-48" src={iosImg} alt="iOS App Download" />
             </a>
             <a href="">
               <img
-                className="w-40 md:w-48"
+                className="w-48"
                 src={androidImg}
                 alt="Android App Download"
               />
