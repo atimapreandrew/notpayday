@@ -17,7 +17,7 @@ const Hero = () => {
             </span>{" "}
             Announcing our $2M + pre-seed funding 🎉
           </p>
-          <h1 className="text-white pt-8 text-4xl font-extrabold md:text-6xl">
+          <h1 className="text-white pt-8 text-3xl font-extrabold md:text-6xl">
             Open USD, EUR, & GBP Bank Accounts for free
           </h1>
           <h3 className="text-white text-lg py-7 md:py-4 md:leading-10 md:text-2xl">
