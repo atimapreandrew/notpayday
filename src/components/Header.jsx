@@ -4,7 +4,7 @@ import logo from "../assets/logo.webp";
 const Header = () => {
   return (
     <header id="header-section">
-      <nav className="relative container font-dmsans antialiased mx-auto p-7 px-8 md:px-24">
+      <nav className="relative container font-dmsans mx-auto p-7 px-8 md:px-24">
         <div className="flex items-center justify-between">
           <div className="w-28 md:w-32">
             <img src={logo} alt="Notpayday Logo" />

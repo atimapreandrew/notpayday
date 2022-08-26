@@ -9,7 +9,7 @@ import yahoo_finance from "../assets/yahoo_finance.png";
 const Featured = () => {
   return (
     <section id="featured-section">
-      <div className="flex flex-col mx-4 py-7 mb-7 font-dmsans antialiased md:mx-32">
+      <div className="flex flex-col mx-4 py-7 mb-7 font-dmsans md:mx-32">
         <div className="mx-auto pt-10">
           <h1 className="text-2xl font-bold text-gray-700">As featured in</h1>
         </div>
