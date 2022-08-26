@@ -7,7 +7,7 @@ const Card = () => {
       <div className="flex mx-4 px-8 mb-7 pt-7 bg-gray-50 font-dmsans rounded-3xl md:px-28 md:mx-32">
         <div className="flex flex-col md:flex-row">
           <div className="flex flex-col my-auto text-black">
-            <h3 className="text-xl font-bold pb-3 md:pb-7 md:text-2xl">
+            <h3 className="text-base font-bold pb-3 md:pb-7 md:text-2xl">
               Shop on the go
             </h3>
             <h2 className="text-2xl font-bold md:pb-2 md:text-5xl">
@@ -16,7 +16,7 @@ const Card = () => {
             <h2 className="text-2xl font-bold pb-3 md:pb-7 md:text-5xl">
               <span className="text-veryDarkCyan">online purchases</span>
             </h2>
-            <p className="text-lg md:text-xl">
+            <p className="text-base md:text-xl">
               Built for your digital life. Spend freely on millions of website
               globally.
             </p>
