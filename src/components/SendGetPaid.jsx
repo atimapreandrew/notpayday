@@ -5,7 +5,7 @@ import paidImg from "../assets/paid.svg";
 const SendGetPaid = () => {
   return (
     <section id="sendgetpaid-section">
-      <div className="flex flex-col mx-4 mb-7 font-dmsans md:mx-32 md:flex-row">
+      <div className="flex flex-col mx-4 mb-7 font-dmsans antialiased md:mx-32 md:flex-row">
         <div className="flex flex-col mb-7 bg-gray-50 rounded-2xl md:mb-14 md:mr-3 md:w-1/2">
           <div className="w-28 mx-auto pt-16 md:pt-24 md:w-48">
             <img src={sendImg} alt="Send cash" />

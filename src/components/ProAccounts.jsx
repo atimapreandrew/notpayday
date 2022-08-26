@@ -4,7 +4,7 @@ import card from "../assets/card_6.webp";
 const ProAccounts = () => {
   return (
     <section id="proaccts-section">
-      <div className="flex bg-veryDarkBlue mx-4 px-8 mb-7 pt-7 font-dmsans rounded-3xl md:px-32 md:mx-32">
+      <div className="flex bg-veryDarkBlue mx-4 px-8 mb-7 pt-7 font-dmsans antialiased rounded-3xl md:px-32 md:mx-32">
         <div className="flex flex-col md:flex-row">
           <div className="flex flex-col my-auto text-white">
             <h3 className="text-lg font-bold pb-7 md:text-xl">Pro accounts</h3>

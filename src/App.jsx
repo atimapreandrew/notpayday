@@ -6,6 +6,8 @@ import Features from "./components/Features";
 import ProAccounts from "./components/ProAccounts";
 import Card from "./components/Card";
 import SendGetPaid from "./components/SendGetPaid";
+import Cta from "./components/Cta";
+import Featured from "./components/Featured";
 
 function App() {
   const [isLoading, setIsLoading] = useState(false);
@@ -31,6 +33,8 @@ function App() {
           <ProAccounts />
           <Card />
           <SendGetPaid />
+          <Cta />
+          <Featured />
         </div>
       )}
     </div>

@@ -19,6 +19,9 @@ module.exports = {
         grayish: "#6c757d",
         veryDarkCyan: "#09757e",
       },
+      backgroundImage: {
+        ctabg: "url('/src/assets/card_7.webp')",
+      },
     },
   },
   plugins: [],
