@@ -13,11 +13,10 @@ function Footer() {
     <section id="footer-section">
       <div className="flex flex-col font-dmsans space-x-7 md:space-x-24 md:flex-row md:p-24">
         <div className="flex flex-col mx-7 py-16 md:pb-16 md:pt-0 md:mx-auto">
-          <div className="flex flex-row place-items-center pb-5 space-x-3 md:pb-10">
+          <div className="flex flex-row divide-x divide-gray-500 place-items-center pb-5 space-x-3 md:pb-10">
             <a href="">
               <img className="w-24 md:w-28" src={logo} alt="" />
             </a>
-            <p className="text-white">|</p>
             <a href="">
               <img className="w-24 md:w-28" src={flutterwave} alt="" />
             </a>
@@ -71,7 +70,7 @@ function Footer() {
       </div>
       <div className="divide-y divide-gray-500 text-gray-500 pb-10 mx-7 font-dmsans md:mx-32 md:py-12">
         <div></div>
-        <div className="pt-10 text-sm md:px-5 md:text-lg">
+        <div className="pt-10 text-sm leading-6 md:px-5">
           Payday is a product of TalentPay. Payday offers its products and
           services in partnership with licensed transmitters in their respective
           jurisdictions. Payday was built in partnership with Flutterwave
