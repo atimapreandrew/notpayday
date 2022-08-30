@@ -53,7 +53,7 @@ function Footer() {
           <a href="">Blog</a>
           <a href="">FAQ</a>
         </div>
-        <div className="text-white space-y-4 text-sm pb-16 md:text-lg">
+        <div className="text-white space-y-4 text-sm pb-24 md:text-lg">
           <h1 className="text-gray-300 font-bold">LOCATIONS</h1>
           <p className="flex place-items-center">
             <img className="w-5 h-5 rounded-full mr-1" src={ca} alt="" />: 2800
@@ -67,6 +67,14 @@ function Footer() {
             <img className="w-5 h-5 rounded-full mr-1" src={rw} alt="" />:
             M.Peace Plaza, 5th Floor, Block B
           </p>
+        </div>
+      </div>
+      <div className="divide-y divide-gray-500 text-gray-500 pb-10 mx-7 font-dmsans md:mx-32 md:py-12">
+        <div></div>
+        <div className="pt-10 px-5 text-sm md:text-lg">
+          Payday is a product of TalentPay. Payday offers its products and
+          services in partnership with licensed transmitters in their respective
+          jurisdictions. Payday was built in partnership with Flutterwave
         </div>
       </div>
     </section>
