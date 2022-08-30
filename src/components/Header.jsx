@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../assets/logo.webp";
+import { HiMenuAlt3 } from "react-icons/hi";
 
 const Header = () => {
   return (
@@ -21,6 +22,10 @@ const Header = () => {
               Download App
             </a>
           </div>
+
+          <button className="flex text-gray-300 md:hidden">
+            <HiMenuAlt3 className="h-7 w-7" />
+          </button>
         </div>
       </nav>
     </header>
