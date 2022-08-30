@@ -11,7 +11,7 @@ function Footer() {
 
   return (
     <section id="footer-section">
-      <div className="flex flex-col font-dmsans space-x-10 md:space-x-24 md:flex-row md:p-24">
+      <div className="flex flex-col font-dmsans space-x-7 md:space-x-24 md:flex-row md:p-24">
         <div className="flex flex-col mx-10 py-16 md:pb-16 md:pt-0 md:mx-auto">
           <div className="flex flex-row place-items-center pb-5 space-x-3 md:pb-10">
             <a href="">
