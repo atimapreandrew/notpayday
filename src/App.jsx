@@ -8,6 +8,7 @@ import Card from "./components/Card";
 import SendGetPaid from "./components/SendGetPaid";
 import Cta from "./components/Cta";
 import Featured from "./components/Featured";
+import Footer from "./components/Footer";
 
 function App() {
   const [isLoading, setIsLoading] = useState(false);
@@ -40,6 +41,9 @@ function App() {
           <SendGetPaid />
           <Cta />
           <Featured />
+          <div className="bg-veryDarkBlue">
+            <Footer />
+          </div>
         </div>
       )}
     </div>
