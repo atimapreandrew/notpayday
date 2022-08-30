@@ -71,7 +71,7 @@ function Footer() {
       </div>
       <div className="divide-y divide-gray-500 text-gray-500 pb-10 mx-7 font-dmsans md:mx-32 md:py-12">
         <div></div>
-        <div className="pt-10 px-5 text-sm md:text-lg">
+        <div className="pt-10 text-sm md:px-5 md:text-lg">
           Payday is a product of TalentPay. Payday offers its products and
           services in partnership with licensed transmitters in their respective
           jurisdictions. Payday was built in partnership with Flutterwave
