@@ -1,12 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../assets/logo.webp";
 import { HiMenuAlt3 } from "react-icons/hi";
 
 const Header = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
   const navToggler = () => {
-    const nav = document.getElementById("navMenu");
-    nav.classList.toggle("flex");
-    nav.classList.toggle("hidden");
+    setIsOpen((prev) => {
+      return !prev;
+    });
+
+    // const nav = document.getElementById("navMenu");
+    // nav.classList.toggle("flex");
+    // nav.classList.toggle("hidden");
   };
 
   return (
@@ -33,10 +39,14 @@ const Header = () => {
             <HiMenuAlt3 className="h-7 w-7" />
           </button>
         </div>
-        <div>
+
+        {/* Mobile Menu */}
+        <div className="">
           <div
             id="navMenu"
-            className="hidden absolute flex-col items-center self-center py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+            className={`absolute h-screen w-screen flex-col items-center space-y-6 font-bold bg-white ${
+              isOpen ? "flex" : "hidden"
+            }`}
           >
             <a href="#">Products</a>
             <a href="#">About</a>
