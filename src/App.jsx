@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import ClipLoader from "react-spinners/ClipLoader";
-import Header from "./components/Header";
+import Nav from "./components/Nav";
 import Hero from "./components/Hero";
 import Features from "./components/Features";
 import ProAccounts from "./components/ProAccounts";
@@ -32,7 +32,7 @@ function App() {
       ) : (
         <div>
           <div className="bg-veryDarkBlue">
-            <Header />
+            <Nav />
             <Hero />
           </div>
           <Features />

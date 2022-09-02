@@ -1,18 +1,15 @@
 import React, { useState } from "react";
 import logo from "../assets/logo.webp";
 import { HiMenuAlt3 } from "react-icons/hi";
+import { AiOutlineClose } from "react-icons/ai";
 
-const Header = () => {
+const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navToggler = () => {
     setIsOpen((prev) => {
       return !prev;
     });
-
-    // const nav = document.getElementById("navMenu");
-    // nav.classList.toggle("flex");
-    // nav.classList.toggle("hidden");
   };
 
   return (
@@ -39,30 +36,43 @@ const Header = () => {
             <HiMenuAlt3 className="h-7 w-7" />
           </button>
         </div>
-
-        {/* Mobile Menu */}
-        <div className="">
-          <div
-            id="navMenu"
-            className={`absolute h-screen w-screen flex-col items-center space-y-6 font-bold bg-white ${
-              isOpen ? "flex" : "hidden"
-            }`}
-          >
-            <a href="#">Products</a>
-            <a href="#">About</a>
-            <a href="#">FAQ</a>
-            <a href="#">Blog</a>
-            <a
-              href="#"
-              className="bg-veryDarkBlue rounded-md px-3 py-2 text-white"
-            >
-              Download App
-            </a>
-          </div>
-        </div>
       </nav>
+
+      <div className="fixed top-0 md:hidden">
+        <div
+          id="navMenu"
+          className={`w-screen h-screen text-lg pt-16 flex-col items-center space-y-10 font-bold bg-white ${
+            isOpen ? "flex" : "hidden"
+          }`}
+        >
+          <button
+            onClick={() => setIsOpen(false)}
+            className="absolute top-7 right-24"
+          >
+            <AiOutlineClose className="h-6 w-6" />
+          </button>
+          <a href="#" className="hover:text-gray-600">
+            Products
+          </a>
+          <a href="#" className="hover:text-gray-600">
+            About
+          </a>
+          <a href="#" className="hover:text-gray-600">
+            FAQ
+          </a>
+          <a href="#" className="hover:text-gray-600">
+            Blog
+          </a>
+          <a
+            href="#"
+            className="bg-veryDarkBlue rounded-md px-3 py-2 text-white"
+          >
+            Download App
+          </a>
+        </div>
+      </div>
     </header>
   );
 };
 
-export default Header;
+export default Nav;

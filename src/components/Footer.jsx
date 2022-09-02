@@ -10,7 +10,7 @@ function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <section id="footer-section">
+    <footer id="footer-section">
       <div className="flex flex-col font-dmsans space-x-7 md:space-x-24 md:flex-row md:p-24">
         <div className="flex flex-col mx-7 py-16 md:pb-16 md:pt-0 md:mx-auto">
           <div className="flex flex-row divide-x divide-gray-500 place-items-center pb-5 space-x-3 md:pb-10">
@@ -18,10 +18,12 @@ function Footer() {
               <img className="w-24 md:w-28" src={logo} alt="" />
             </a>
             <a href="">
-              <img className="w-24 md:w-28" src={flutterwave} alt="" />
+              <img className="w-24 ml-3 md:w-28" src={flutterwave} alt="" />
             </a>
           </div>
-          <p className="text-white text-sm md:text-lg">NotPayDay © {year}</p>
+          <p className="text-white text-sm md:text-lg">
+            NotPayDay &copy; {year}
+          </p>
         </div>
         <div className="space-y-4 text-sm md:text-lg">
           <div className="flex flex-col text-white space-y-4 pb-5 md:pb-16">
@@ -76,7 +78,19 @@ function Footer() {
           jurisdictions. Payday was built in partnership with Flutterwave
         </div>
       </div>
-    </section>
+      <div className="text-gray-500 font-dmsans pb-10 text-center text-sm">
+        <p>
+          Developed with ❤️ by{" "}
+          <a
+            className="hover:text-gray-300"
+            href="https://newdev.io/devaandrew"
+            target="_blank"
+          >
+            Andrew Atimapre (@devaandrew)
+          </a>
+        </p>
+      </div>
+    </footer>
   );
 }
 
