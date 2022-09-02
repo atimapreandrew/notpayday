@@ -41,13 +41,13 @@ const Nav = () => {
       <div className="fixed top-0 md:hidden">
         <div
           id="navMenu"
-          className={`w-screen h-screen text-lg pt-16 flex-col items-center space-y-10 font-bold bg-white ${
+          className={`w-screen h-screen pt-10 flex-col items-center space-y-7 bg-gray-100 ${
             isOpen ? "flex" : "hidden"
           }`}
         >
           <button
             onClick={() => setIsOpen(false)}
-            className="absolute top-7 right-24"
+            className="absolute top-7 right-16"
           >
             <AiOutlineClose className="h-6 w-6" />
           </button>
