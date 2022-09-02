@@ -41,33 +41,24 @@ const Nav = () => {
       <div className="fixed top-0 md:hidden">
         <div
           id="navMenu"
-          className={`w-screen h-screen pt-10 flex-col items-center space-y-7 bg-gray-100 ${
+          className={`w-screen transform duration-700 h-screen pt-16 flex-col items-center space-y-7 bg-gray-100 ${
             isOpen ? "flex" : "hidden"
           }`}
         >
           <button
             onClick={() => setIsOpen(false)}
-            className="absolute top-7 right-16"
+            className="absolute top-7 right-7"
           >
             <AiOutlineClose className="h-6 w-6" />
           </button>
           <a href="#" className="hover:text-gray-600">
-            Products
+            About Us
           </a>
           <a href="#" className="hover:text-gray-600">
-            About
+            Privacy Policy
           </a>
           <a href="#" className="hover:text-gray-600">
-            FAQ
-          </a>
-          <a href="#" className="hover:text-gray-600">
-            Blog
-          </a>
-          <a
-            href="#"
-            className="bg-veryDarkBlue rounded-md px-3 py-2 text-white"
-          >
-            Download App
+            Announcement
           </a>
         </div>
       </div>
