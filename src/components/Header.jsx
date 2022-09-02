@@ -3,6 +3,12 @@ import logo from "../assets/logo.webp";
 import { HiMenuAlt3 } from "react-icons/hi";
 
 const Header = () => {
+  const navToggler = () => {
+    const nav = document.getElementById("navMenu");
+    nav.classList.toggle("flex");
+    nav.classList.toggle("hidden");
+  };
+
   return (
     <header id="header-section">
       <nav className="relative container font-dmsans mx-auto p-7 px-8 md:px-24">
@@ -23,9 +29,26 @@ const Header = () => {
             </a>
           </div>
 
-          <button className="flex text-gray-300 md:hidden">
+          <button onClick={navToggler} className="flex text-gray-300 md:hidden">
             <HiMenuAlt3 className="h-7 w-7" />
           </button>
+        </div>
+        <div>
+          <div
+            id="navMenu"
+            className="hidden absolute flex-col items-center self-center py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+          >
+            <a href="#">Products</a>
+            <a href="#">About</a>
+            <a href="#">FAQ</a>
+            <a href="#">Blog</a>
+            <a
+              href="#"
+              className="bg-veryDarkBlue rounded-md px-3 py-2 text-white"
+            >
+              Download App
+            </a>
+          </div>
         </div>
       </nav>
     </header>
