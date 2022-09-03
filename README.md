@@ -1,6 +1,6 @@
 ## NotPayDay Landing Page
 
-LIVE URL: https://notpayday-devaandrew.netlify.app
+LIVE URL: https://notpayday-devaandrew.netlify.app/
 
 ## Technologies I used
 
