@@ -38,7 +38,7 @@ const Nav = () => {
         </div>
       </nav>
 
-      {/* <div className="fixed top-0 md:hidden">
+      <div className="fixed top-0 md:hidden">
         <div
           id="navMenu"
           className={`w-screen h-screen pt-16 flex-col items-center space-y-5 bg-gray-100 ${
@@ -70,7 +70,7 @@ const Nav = () => {
             Announcement
           </a>
         </div>
-      </div> */}
+      </div>
     </header>
   );
 };
