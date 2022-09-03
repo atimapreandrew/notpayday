@@ -79,16 +79,16 @@ function Footer() {
         </div>
       </div>
       <div className="text-gray-500 font-dmsans pb-10 text-center text-sm">
-        <p>
+        <small>
           Developed with ❤️ by{" "}
           <a
-            className="hover:text-gray-300"
+            className="text-white hover:text-gray-300"
             href="https://newdev.io/devaandrew"
             target="_blank"
           >
             Andrew Atimapre (@devaandrew)
           </a>
-        </p>
+        </small>
       </div>
     </footer>
   );

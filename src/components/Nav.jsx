@@ -41,7 +41,7 @@ const Nav = () => {
       <div className="fixed top-0 md:hidden">
         <div
           id="navMenu"
-          className={`w-screen transform duration-700 h-screen pt-16 flex-col items-center space-y-7 bg-gray-100 ${
+          className={`w-screen h-screen pt-16 flex-col items-center space-y-5 bg-gray-100 ${
             isOpen ? "flex" : "hidden"
           }`}
         >
@@ -51,13 +51,22 @@ const Nav = () => {
           >
             <AiOutlineClose className="h-6 w-6" />
           </button>
-          <a href="#" className="hover:text-gray-600">
+          <a
+            href="#"
+            className="text-center pb-5 border-gray-500 border-b w-full hover:text-gray-600"
+          >
             About Us
           </a>
-          <a href="#" className="hover:text-gray-600">
+          <a
+            href="#"
+            className="text-center pb-5 border-gray-500 border-b w-full hover:text-gray-600"
+          >
             Privacy Policy
           </a>
-          <a href="#" className="hover:text-gray-600">
+          <a
+            href="#"
+            className="text-center pb-5 border-gray-500 border-b w-full hover:text-gray-600"
+          >
             Announcement
           </a>
         </div>
