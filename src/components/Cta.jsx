@@ -7,7 +7,7 @@ const Cta = () => {
     <section id="cta-section">
       <div className="flex flex-col bg-ctabg bg-no-repeat bg-cover mx-4 py-4 mb-7 rounded-3xl font-dmsans md:py-20 md:mx-32 md:flex-row">
         <div className="flex flex-col items-center justify-between md:flex-row">
-          <div className="px-1 py-3 md:w-1/2 md:pl-20">
+          <div className="px-5 py-3 md:w-1/2 md:px-1 md:pl-20">
             <h1 className="text-white text-xl font-bold md:text-3xl">
               What are you waiting for? Download the Payday app & get started
               now!

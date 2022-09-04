@@ -18,10 +18,7 @@ const Hero = () => {
             Announcing our $2M + pre-seed funding 🎉
           </p>
           <h1 className="text-white pt-8 text-3xl font-bold md:text-5xl">
-            Open USD, EUR, & GBP
-          </h1>
-          <h1 className="text-white pt-2 text-3xl font-bold md:text-5xl">
-            Bank Accounts for free
+            Open USD, EUR, & GBP Bank Accounts for free
           </h1>
           <h3 className="text-white text-lg py-7 md:py-4 md:leading-8 md:text-xl">
             The Borderless Neobank for African remote workers, freelancers, and
