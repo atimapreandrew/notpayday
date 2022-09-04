@@ -14,12 +14,12 @@ const Nav = () => {
 
   return (
     <header id="header-section">
-      <nav className="relative container font-dmsans mx-auto p-7 px-8 md:px-24">
+      <nav className="relative font-dmsans mx-auto p-7 px-8 md:px-[120px]">
         <div className="flex items-center justify-between">
-          <div className="w-28 md:w-32">
+          <div className="w-28">
             <img src={logo} alt="Notpayday Logo" />
           </div>
-          <div className="hidden space-x-12 md:flex text-lg place-items-center text-white">
+          <div className="hidden space-x-12 md:flex text-[16px] place-items-center text-white">
             <a href="#">Products</a>
             <a href="#">About</a>
             <a href="#">FAQ</a>

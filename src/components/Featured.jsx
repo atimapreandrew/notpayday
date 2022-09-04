@@ -10,11 +10,9 @@ const Featured = () => {
   return (
     <section id="featured-section">
       <div className="flex items-center justify-center pt-10">
-        <h1 className="text-2xl font-bold text-gray-700 md:text-3xl">
-          As featured in
-        </h1>
+        <h1 className="text-2xl font-bold text-gray-500">As featured in</h1>
       </div>
-      <div className="flex flex-col items-center justify-center mx-4 py-7 mb-7 font-dmsans md:mx-32 md:flex-row">
+      <div className="flex flex-col items-center justify-center mx-4 py-7 mb-7 font-dmsans md:mx-36 md:flex-row">
         <div className="flex place-items-center space-x-5 p-5 md:space-x-20 md:flex-row">
           <a href="#">
             <img
