@@ -16,7 +16,7 @@ Access the demo site at [NotPayDay](https://notpayday-devaandrew.netlify.app)
 
 ## About The App
 
-[NotPayDay-Landing-Page] is a replica of [Payday](https://usepayday.com)
+NotPayDay Landing Page is a replica of [Payday](https://usepayday.com)
 
 ## Technologies
 
