@@ -11,10 +11,8 @@ Access the demo site at [NotPayDay](https://notpayday-devaandrew.netlify.app)
 - [About The App](#about-the-app)
 - [Technologies](#technologies)
 - [Setup](#setup)
-- [Approach](#approach)
 - [Status](#status)
 - [Credits](#credits)
-- [License](#license)
 
 ## About The App
 
@@ -37,7 +35,3 @@ I used `reactjs`, `tailwindcss`, and `Vite (Build tool)`
 ## Credits
 
 - [PayDay](https://usepayday.com)
-
-## License
-
-MIT license @ [Andrew Atimapre](https://github.com/atimapreandrew)
